@@ -4,13 +4,24 @@
 
 ---
 
-## 📂 Kit Operativo
-> _Abre este archivo primero. Navega a los MDs específicos según lo que necesites._
+## 📂 Context Map
+> _Este archivo es el punto de entrada. Carga los MDs específicos según la tarea._
 
-| # | Archivo | Para qué sirve |
-|---|---------|----------------|
-| 1 | `campanas.md` | Rendimiento YTD · tipos · HSM templates · cómo solicitar campaña · cómo crear HSM |
-| 2 | `audiencias.md` | Segmentos CDP activos · campos · JSONLogic · cómo solicitar nuevo segmento |
+### customers/ — contexto del cliente final
+
+| Archivo | Qué contiene | Cuándo cargarlo |
+|---------|-------------|-----------------|
+| **`customer.md`** ← estás aquí | Overview, equipo, IDs técnicos, métricas, links | Siempre — es el índice |
+| [`campanas.md`](campanas.md) | Rendimiento YTD · tipos · HSM templates · cómo solicitar campaña | Campañas, HSM, audiencias de envío |
+| [`audiencias.md`](audiencias.md) | Segmentos CDP activos · campos · JSONLogic · cómo crear segmentos | CDP, segmentación, audiencias |
+
+### accounts-and-flows/ — contexto técnico y de delivery
+
+| Archivo | Qué contiene | Cuándo cargarlo |
+|---------|-------------|-----------------|
+| [`01-magnum-ec-tech.md`](../../accounts-and-flows/unilever-ice-ecuador/01-magnum-ec-tech.md) | Bots, Cloud Functions, integraciones (Gravty/PWST/Trax), infra, credenciales, stack, LangSmith | Desarrollo, debugging, infra |
+| [`02-magnum-ec-pm.md`](../../accounts-and-flows/unilever-ice-ecuador/02-magnum-ec-pm.md) | Stakeholders, status proyecto, tickets Jira/Newton, roadmap, accionables | PM, delivery, seguimiento de tickets |
+| [`03-magnum-ec-historia.md`](../../accounts-and-flows/unilever-ice-ecuador/03-magnum-ec-historia.md) | Glosario, crisis Napolita Pro (post-mortem), historia operativa Loyalty | Onboarding, contexto institucional |
 
 ---
 

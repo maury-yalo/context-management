@@ -4,13 +4,20 @@
 
 ---
 
-## 📂 Kit Operativo
-> _Abre este archivo primero. Navega a los MDs específicos según lo que necesites._
+## 📂 Context Map
+> _Este archivo es el punto de entrada. Carga los MDs específicos según la tarea._
 
-| # | Archivo | Para qué sirve |
-|---|---------|----------------|
-| 1 | `campanas.md` | Rendimiento YTD · tipos · HSM templates · cómo solicitar campaña · cómo crear HSM |
-| 2 | `audiencias.md` | Segmentos CDP activos · campos · JSONLogic · cómo solicitar nuevo segmento |
+### customers/ — contexto del cliente final
+
+| Archivo | Qué contiene | Cuándo cargarlo |
+|---------|-------------|-----------------|
+| **`customer.md`** ← estás aquí | Overview, equipo, IDs técnicos, métricas, links | Siempre — es el índice |
+| [`campanas.md`](campanas.md) | Rendimiento YTD · tipos · HSM templates · cómo solicitar campaña | Campañas, HSM, audiencias de envío |
+| [`audiencias.md`](audiencias.md) | Segmentos CDP activos · campos · JSONLogic · cómo crear segmentos | CDP, segmentación, audiencias |
+
+### accounts-and-flows/ — contexto técnico y de delivery
+
+> _Pendiente — se agrega cuando Delivery/PM suban los archivos de esta cuenta._
 
 ---
 
