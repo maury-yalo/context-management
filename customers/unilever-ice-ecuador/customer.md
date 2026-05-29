@@ -14,6 +14,7 @@
 | **`customer.md`** ← estás aquí | Overview, equipo, IDs técnicos, métricas, links | Siempre — es el índice |
 | [`campanas.md`](campanas.md) | Rendimiento YTD · tipos · HSM templates · cómo solicitar campaña | Campañas, HSM, audiencias de envío |
 | [`audiencias.md`](audiencias.md) | Segmentos CDP activos · campos · JSONLogic · cómo crear segmentos | CDP, segmentación, audiencias |
+| [`analytics.md`](analytics.md) | BQ storefronts · experimento Oris P1 · queries Q1/Q2 · GMV canónico · datasharing mensual | Análisis de datos, reportes, datasharing |
 
 ### accounts-and-flows/ — contexto técnico y de delivery
 
