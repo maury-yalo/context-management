@@ -1,0 +1,3 @@
+[submodule "products"]
+	path = products
+	url = https://github.com/andressilva-yalo/yalo-help-center.git
