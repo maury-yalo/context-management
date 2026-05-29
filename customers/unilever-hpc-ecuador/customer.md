@@ -17,7 +17,13 @@
 
 ### accounts-and-flows/ — contexto técnico y de delivery
 
-> _Pendiente — se agrega cuando Delivery/PM suban los archivos de esta cuenta._
+> HPC y ICE Ecuador comparten el mismo equipo Yalo y la misma base de delivery. El contexto técnico de HPC está embebido dentro de los archivos de `unilever-ice-ecuador/`.
+
+| Archivo | Secciones relevantes para HPC | Cuándo cargarlo |
+|---------|-------------------------------|-----------------|
+| [`01-magnum-ec-tech.md`](../../accounts-and-flows/unilever-ice-ecuador/01-magnum-ec-tech.md) | §4.3 Activities HPC · §5.6 Lambda catalog-add-on · §13 Credenciales HPC · §8 Scheduler `unilever-ecu-hpc-hourly-batches` · Diagrama ecosistema | Desarrollo, debugging, infra |
+| [`02-magnum-ec-pm.md`](../../accounts-and-flows/unilever-ice-ecuador/02-magnum-ec-pm.md) | §3 Stakeholders (mismo equipo Ecuador) · §18 Recursos y links | PM, delivery, stakeholders |
+| [`03-magnum-ec-historia.md`](../../accounts-and-flows/unilever-ice-ecuador/03-magnum-ec-historia.md) | Glosario (términos compartidos) | Onboarding, contexto institucional |
 
 ---
 
